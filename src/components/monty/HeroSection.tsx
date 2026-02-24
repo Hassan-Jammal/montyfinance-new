@@ -1,22 +1,19 @@
 import React from 'react';
 
-const BUSINESSMAN_IMG = 'https://d64gsuwffb70l.cloudfront.net/699d93bd375483c7d17166c9_1771934775532_3a58a4c5.jpg';
-const SKYSCRAPER_IMG = 'https://d64gsuwffb70l.cloudfront.net/699d93bd375483c7d17166c9_1771934791724_6fd456de.jpg';
-
 const HeroSection: React.FC = () => {
   const scrollToSection = (id: string) => {
     const el = document.getElementById(id);
     if (el) el.scrollIntoView({ behavior: 'smooth' });
   };
-
+// onClick={() => scrollToSection('ecosystem')}
   return (
-    <section className="relative min-h-screen bg-[#f8f9fb] overflow-hidden pt-20">
+    <section className="relative flex items-center min-h-screen bg-[#f8f9fb] overflow-hidden pt-20">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12 lg:py-20">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           {/* Left Content */}
           <div className="space-y-8">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-[#0f1c2e] text-white px-5 py-2.5 rounded-full text-sm font-medium">
+            <div className="inline-flex items-center gap-2 bg-[#0f1c2e] text-[#d4b87a] px-5 py-2.5 rounded-full text-sm font-medium">
               <span>Licensed by BDL</span>
               <span className="text-[#c9a96e]">&bull;</span>
               <span>Digital Finance Leader</span>
@@ -99,17 +96,25 @@ const HeroSection: React.FC = () => {
 
           {/* Right Visual */}
           <div className="relative hidden lg:block">
-            <div className="relative w-full h-[600px]">
+            <div className="relative w-full h-[700px]">
               {/* Money Transfer Card */}
-              <div className="absolute top-4 left-0 bg-white rounded-2xl shadow-xl p-5 w-64 z-20 animate-float">
+              <div className="absolute top-20 left-20 bg-white rounded-2xl shadow-xl p-5 w-64 z-20 animate-float">
 
                 <div className="flex items-center gap-2 mb-3">
                   <div className="flex -space-x-2">
-                    <div className="w-8 h-8 rounded-full bg-[#2d4a9e] border-2 border-white flex items-center justify-center">
-                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z"/></svg>
+                    <div className="w-8 h-8 rounded-full bg-[#2d4a9e] flex items-center justify-center z-10">
+                      <img
+                        src="/images/person-2.png"
+                        alt="Professional businessman"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
-                    <div className="w-8 h-8 rounded-full bg-[#c9a96e] border-2 border-white flex items-center justify-center">
-                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z"/></svg>
+                    <div className="w-8 h-8 rounded-full bg-[#c9a96e] flex items-center justify-center">
+                      <img
+                        src="/images/person-1.png"
+                        alt="Professional businessman"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                   </div>
                 </div>
@@ -123,23 +128,23 @@ const HeroSection: React.FC = () => {
               {/* Businessman Image */}
               <div className="absolute top-0 right-0 w-56 h-72 rounded-2xl overflow-hidden shadow-lg z-10">
                 <img
-                  src={BUSINESSMAN_IMG}
+                  src="/images/banner-1.png"
                   alt="Professional businessman"
                   className="w-full h-full object-cover"
                 />
               </div>
 
               {/* Skyscraper Image */}
-              <div className="absolute bottom-8 left-16 w-60 h-64 rounded-2xl overflow-hidden shadow-lg z-10">
+              <div className="absolute bottom-28 left-24 w-60 h-64 rounded-2xl overflow-hidden shadow-lg z-10">
                 <img
-                  src={SKYSCRAPER_IMG}
+                  src="/images/banner-2.png"
                   alt="Modern skyscraper"
                   className="w-full h-full object-cover"
                 />
               </div>
 
               {/* Total Deposit Card */}
-              <div className="absolute top-[280px] right-0 bg-white rounded-2xl shadow-xl p-5 w-56 z-20 animate-float-delayed">
+              <div className="absolute top-[320px] right-0 bg-white rounded-2xl shadow-xl p-5 w-56 z-20 animate-float-delayed">
 
                 <div className="flex items-center justify-between mb-2">
                   <p className="text-[#5a6a7e] text-xs">Total deposit</p>
@@ -160,7 +165,7 @@ const HeroSection: React.FC = () => {
               </div>
 
               {/* Analysis Chart Card */}
-              <div className="absolute bottom-0 right-0 bg-white rounded-2xl shadow-xl p-5 w-56 z-20 animate-float-slow">
+              <div className="absolute bottom-8 right-0 bg-white rounded-2xl shadow-xl p-5 w-56 z-20 animate-float-slow">
 
                 <div className="flex items-center justify-between mb-3">
                   <p className="font-semibold text-[#0f1c2e] text-sm">Analysis</p>
@@ -187,11 +192,11 @@ const HeroSection: React.FC = () => {
                     <div key={i} className="flex-1 flex items-end gap-0.5">
                       <div
                         className="flex-1 bg-[#2d4a9e] rounded-t-sm"
-                        style={{ height: `${bar.income}%` }}
+                        style={{ height: `${bar.income}px` }}
                       />
                       <div
                         className="flex-1 bg-[#c9a96e] rounded-t-sm"
-                        style={{ height: `${bar.outcome}%` }}
+                        style={{ height: `${bar.outcome}px` }}
                       />
                     </div>
                   ))}

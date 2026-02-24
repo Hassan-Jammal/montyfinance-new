@@ -71,39 +71,40 @@ const ApproachSection: React.FC = () => {
               </div>
             ))}
           </div>
-        </div>
-      </section>
 
-      {/* Our Commitment */}
-      <section className="py-8 px-6 lg:px-8">
-        <div className="max-w-5xl mx-auto bg-[#0f1c2e] rounded-3xl p-8 lg:p-14">
-          <div className="text-center mb-8">
-            <span className="inline-block bg-white text-[#0f1c2e] px-5 py-2 rounded-full text-sm font-semibold mb-6">
-              OUR COMMITMENT
-            </span>
-            <h2 className="font-serif font-bold text-white text-2xl sm:text-3xl lg:text-4xl leading-tight">
-              Building Meaningful Financial Infrastructure
-            </h2>
-          </div>
+          {/* Our Commitment */}
+          <div className="py-10">
+            <div className="max-w-6xl mx-auto bg-[#0f1c2e] rounded-3xl p-8 lg:p-14">
+              <div className="text-center mb-8">
+                <span className="inline-block bg-white text-[#0f1c2e] px-5 py-2 rounded-full text-sm font-semibold mb-6">
+                  OUR COMMITMENT
+                </span>
+                <h2 className="font-serif font-bold text-white text-2xl sm:text-3xl lg:text-4xl leading-tight">
+                  Building Meaningful Financial Infrastructure
+                </h2>
+              </div>
 
-          <div className="space-y-6 max-w-3xl mx-auto">
-            <div className="border-l-4 border-white/30 pl-6">
-              <p className="text-gray-300 text-base leading-relaxed">
-                In a market where complexity and barriers have long limited access, we are committed to opening doors. We build platforms that simplify finance, restore confidence, and give individuals and merchants the freedom to move, pay, and grow with ease.
-              </p>
-            </div>
-            <div className="border-l-4 border-white/30 pl-6">
-              <p className="text-gray-300 text-base leading-relaxed">
-                Our ambition is clear: to ensure that Lebanese people, residents, and the wider diaspora can access essential financial services without friction, wherever they are and whenever they need them.
-              </p>
-            </div>
-            <div className="bg-white/10 rounded-2xl p-6 mt-8">
-              <p className="text-gray-200 text-base leading-relaxed italic">
-                "Guided by the visionary leadership of Mountasser Hachem, Chairman of Monty Holding, Monty Finance SAL was founded with a clear purpose: to build meaningful financial infrastructure that drives progress. We are shaping a more connected, resilient, and accessible future for finance in Lebanon and beyond."
-              </p>
+              <div className="space-y-6 mx-auto">
+                <div className="border-l-4 border-white/30 pl-6">
+                  <p className="text-gray-300 text-base leading-relaxed">
+                    In a market where complexity and barriers have long limited access, we are committed to opening doors. We build platforms that simplify finance, restore confidence, and give individuals and merchants the freedom to move, pay, and grow with ease.
+                  </p>
+                </div>
+                <div className="border-l-4 border-white/30 pl-6">
+                  <p className="text-gray-300 text-base leading-relaxed">
+                    Our ambition is clear: to ensure that Lebanese people, residents, and the wider diaspora can access essential financial services without friction, wherever they are and whenever they need them.
+                  </p>
+                </div>
+                <div className="bg-white/10 rounded-2xl p-6 mt-8">
+                  <p className="text-gray-200 text-base leading-relaxed italic">
+                    "Guided by the visionary leadership of Mountasser Hachem, Chairman of Monty Holding, Monty Finance SAL was founded with a clear purpose: to build meaningful financial infrastructure that drives progress. We are shaping a more connected, resilient, and accessible future for finance in Lebanon and beyond."
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
       </section>
     </>
   );
