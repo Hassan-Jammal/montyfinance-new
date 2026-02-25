@@ -36,7 +36,7 @@ const VisionMissionSection: React.FC = () => {
             </div>
             <h3 className="font-bold text-[#0f1c2e] text-2xl mb-4">Our Mission</h3>
             <p className="text-[#5a6a7e] text-base leading-relaxed">
-              To empower people with simple, secure digital finance and equip Lebanese businesses with modern payment solutions, reshaping Lebanon's financial landscape with impact and purpose.
+              To empower people with simple, secure digital finance and equip Lebanese businesses with modern payment acceptance solutions, reshaping Lebanon’s financial landscape with impact and purpose.
             </p>
           </div>
         </div>
