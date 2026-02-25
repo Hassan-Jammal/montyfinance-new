@@ -13,7 +13,7 @@ const HeroSection: React.FC = () => {
           {/* Left Content */}
           <div className="space-y-8">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-[#0f1c2e] text-[#d4b87a] px-5 py-2.5 rounded-full text-sm font-medium">
+            <div className="inline-flex items-center gap-2 bg-[#0f1c2e] text-[#d4b87a] px-2 py-1 rounded-full text-sm font-medium">
               <span>Licensed by BDL</span>
               <span className="text-[#c9a96e]">&bull;</span>
               <span>Digital Finance Leader</span>
@@ -30,7 +30,7 @@ const HeroSection: React.FC = () => {
             </p>
 
             {/* CTAs */}
-            <div className="flex flex-wrap items-center gap-4">
+            {/* <div className="flex flex-wrap items-center gap-4">
               <button
                 onClick={() => scrollToSection('ecosystem')}
                 className="inline-flex items-center gap-3 bg-[#0f1c2e] text-white px-8 py-4 rounded-full text-base font-medium hover:bg-[#1a2d45] transition-all duration-200 group"
@@ -54,7 +54,7 @@ const HeroSection: React.FC = () => {
               >
                 Learn More
               </button>
-            </div>
+            </div> */}
 
             {/* Trust Badges */}
             <div className="flex flex-wrap items-center gap-8 pt-4">
