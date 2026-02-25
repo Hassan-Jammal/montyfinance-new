@@ -72,7 +72,7 @@ const EcosystemSection: React.FC = () => {
 
   return (
     <section id="ecosystem" className="py-20 lg:py-28 bg-white">
-      <div className="max-w-6xl mx-auto px-6 lg:px-8">
+      <div className="max-w-screen-2xl mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
           <p className="text-[#0f1c2e] font-semibold text-sm tracking-widest uppercase mb-4">
@@ -112,13 +112,13 @@ const EcosystemSection: React.FC = () => {
                   <path d="M175.662 4.80225L161.581 36H167.92L182 4.80225H175.662Z" fill="#0E1414"/>
                 </svg>
               </div>
-              <p className="text-[#5a6a7e] text-base mb-6 ml-[60px]">Your Super Digital Wallet</p>
+              <p className="text-[#5a6a7e] text-base mb-12 ml-[60px]">Your Super Digital Wallet</p>
 
               <p className="text-[#5a6a7e] text-base leading-relaxed mb-6">
                 MyMonty is an all-in-one digital wallet designed for everyday life. It gives individuals smart control over their money through a simple, intuitive mobile app.
               </p>
 
-              <div className="space-y-3 mb-8">
+              <div className="space-y-4 mb-12">
                 {[
                   'Send and receive money instantly with peer-to-peer transfers',
                   'Manage their finances in one secure place',
@@ -138,7 +138,7 @@ const EcosystemSection: React.FC = () => {
             </div>
 
             <div className="flex justify-center">
-              <div className="relative w-11/12 ml-auto">
+              <div className="relative w-3/4 ml-auto">
                 <img
                   src='images/mobile-app.png'
                   alt="MyMonty digital wallet app"
@@ -150,15 +150,10 @@ const EcosystemSection: React.FC = () => {
         </div>
 
         {/* MyMonty Business Section */}
-        <div className="grid lg:grid-cols-2 gap-8 mb-24">
+        <div className="grid lg:grid-cols-3 gap-8 mb-24">
           {/* Left - Dark Card */}
-          <div className="bg-[#0f1c2e] rounded-3xl p-8 lg:p-10 flex flex-col justify-between">
+          <div className="bg-[#0f1c2e] rounded-3xl p-8 lg:p-10 flex flex-col justify-between min-h-[650px]">
             <div>
-              <span className="inline-flex items-center gap-2 bg-white/10 text-white px-4 py-1.5 rounded-full text-sm mb-8">
-                <span className="w-2 h-2 rounded-full bg-green-400" />
-                For Businesses
-              </span>
-
               <div className="flex items-center gap-2 mb-2 mt-8">
                 <svg width="315" height="36" viewBox="0 0 315 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M182.361 0.21167H192.327C196.827 0.21167 199.87 2.82652 199.87 6.75167V6.786C199.87 9.4924 197.832 12.1244 195.117 12.5078V12.5822C198.906 13.017 201.202 15.5632 201.202 19.0306V19.0649C201.202 23.6767 197.884 26.4174 192.292 26.4174H182.361V0.21167ZM185.644 3.09545V11.5065H190.564C194.445 11.5065 196.558 9.96159 196.558 7.12931V7.09498C196.558 4.51445 194.755 3.10117 191.58 3.10117H185.639L185.644 3.09545ZM185.644 14.3216V23.5279H191.804C195.742 23.5279 197.832 21.9487 197.832 18.9334V18.899C197.832 15.8665 195.685 14.3216 191.494 14.3216H185.644Z" fill="#BCC2C9"/>
@@ -201,15 +196,15 @@ const EcosystemSection: React.FC = () => {
           </div>
 
           {/* Right - Image + Features */}
-          <div className="space-y-6">
-            <div className="relative rounded-3xl overflow-hidden h-52">
+          <div className="col-span-2 space-y-6">
+            <div className="relative rounded-3xl overflow-hidden h-72">
               <img
                 src='images/person-3.png'
                 alt="Business professional"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-              <div className="absolute bottom-4 left-4">
+              <div className="absolute bottom-8 left-8">
                 <span className="inline-block bg-white/20 backdrop-blur-sm text-white px-3 py-1 rounded-full text-xs mb-2">
                   Real-time Management
                 </span>
@@ -241,14 +236,9 @@ const EcosystemSection: React.FC = () => {
         </div>
 
         {/* MontyPay Section */}
-        <div className="bg-[#f0f3f8] rounded-3xl p-8 lg:p-14 mb-12">
+        <div className="bg-[#f0f3f8] rounded-3xl p-8 lg:p-24 mb-12">
           <div className="relative grid lg:grid-cols-2 gap-10 items-center">
             <div>
-              <span className="inline-flex items-center gap-2 bg-white text-[#0f1c2e] px-4 py-1.5 rounded-full text-sm font-medium mb-8 shadow-sm">
-                <span className="w-2 h-2 rounded-full bg-green-400" />
-                Payment Solutions Platform
-              </span>
-
               <div className="flex items-start gap-3">  
                 <img
                   src='images/mp.png'
@@ -297,9 +287,6 @@ const EcosystemSection: React.FC = () => {
               </div>
               <p className="text-[#5a6a7e] text-base mb-6 ml-[60px]">Beyond Payments.</p>
 
-
-
-
               <p className="text-[#5a6a7e] text-base leading-relaxed mb-8">
                 A full-spectrum commerce and payment solutions platform designed to help businesses accept, manage, and grow their payments with confidence across Lebanon.
               </p>
@@ -309,10 +296,10 @@ const EcosystemSection: React.FC = () => {
                   <button
                     key={tag}
                     onClick={() => setActivePayTag(tag)}
-                    className={`px-6 py-3 rounded-full text-sm font-medium border-2 transition-all duration-200 ${
+                    className={`px-6 py-3 rounded-full text-sm font-medium border-2 transition-all duration-200 bg-transparent !text-[#0f1c2e] ${
                       activePayTag === tag
                         ? 'bg-[#0f1c2e] text-white border-[#0f1c2e]'
-                        : 'bg-transparent text-[#0f1c2e] border-[#0f1c2e] hover:bg-[#0f1c2e] hover:text-white'
+                        : 'bg-transparent text-[#0f1c2e] border-[#0f1c2e] hover:bg-[#0f1c2e]hover:text-white'
                     }`}
                   >
                     {tag}
@@ -321,8 +308,8 @@ const EcosystemSection: React.FC = () => {
               </div>
             </div>
 
-            <div className="lg:absolute -top-28 right-0 flex justify-center">
-              <div className="relative w-64 lg:w-72">
+            <div className="lg:absolute -top-36 right-0 flex justify-center">
+              <div className="relative w-64 lg:w-80">
                 <img
                   src='images/pos.png'
                   alt="MontyPay POS terminal"

@@ -3,7 +3,7 @@ import React from 'react';
 const AboutSection: React.FC = () => {
   return (
     <section id="about" className="py-20 lg:py-28 bg-white">
-      <div className="max-w-4xl mx-auto px-6 lg:px-8">
+      <div className="max-w-screen-2xl mx-auto px-6 lg:px-8">
         <p className="text-[#0f1c2e] font-semibold text-sm tracking-widest uppercase mb-4">
           ABOUT US
         </p>

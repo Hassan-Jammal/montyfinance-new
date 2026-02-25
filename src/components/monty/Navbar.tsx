@@ -29,7 +29,7 @@ const Navbar: React.FC<NavbarProps> = ({ onContactClick }) => {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/95 backdrop-blur-md shadow-sm' : 'bg-transparent'}`}>
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-screen-2xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-2 group">
             <svg width="223" height="28" viewBox="0 0 223 28" fill="none" xmlns="http://www.w3.org/2000/svg">

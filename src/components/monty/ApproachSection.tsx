@@ -44,7 +44,7 @@ const ApproachSection: React.FC = () => {
     <>
       {/* Our Approach */}
       <section id="approach" className="py-20 lg:py-28 bg-[#f8f9fb]">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+        <div className="max-w-screen-2xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <p className="text-[#0f1c2e] font-semibold text-sm tracking-widest uppercase mb-4">
               OUR APPROACH
@@ -74,7 +74,7 @@ const ApproachSection: React.FC = () => {
 
           {/* Our Commitment */}
           <div className="py-10">
-            <div className="max-w-6xl mx-auto bg-[#0f1c2e] rounded-3xl p-8 lg:p-14">
+            <div className="max-w-screen-2xl mx-auto bg-[#0f1c2e] rounded-3xl p-8 lg:p-14">
               <div className="text-center mb-8">
                 <span className="inline-block bg-white text-[#0f1c2e] px-5 py-2 rounded-full text-sm font-semibold mb-6">
                   OUR COMMITMENT

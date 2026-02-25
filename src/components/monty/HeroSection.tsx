@@ -8,7 +8,7 @@ const HeroSection: React.FC = () => {
 // onClick={() => scrollToSection('ecosystem')}
   return (
     <section className="relative flex items-center min-h-screen bg-[#f8f9fb] overflow-hidden pt-20">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12 lg:py-20">
+      <div className="max-w-screen-2xl mx-auto px-6 lg:px-8 py-12 lg:py-20">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
           {/* Left Content */}
           <div className="space-y-8">
@@ -96,9 +96,9 @@ const HeroSection: React.FC = () => {
 
           {/* Right Visual */}
           <div className="relative hidden lg:block">
-            <div className="relative w-full h-[700px]">
+            <div className="relative w-full h-[700px] max-w-2xl ml-auto">
               {/* Money Transfer Card */}
-              <div className="absolute top-20 left-20 bg-white rounded-2xl shadow-xl p-5 w-64 z-20 animate-float">
+              <div className="absolute top-20 left-40 bg-white rounded-2xl shadow-xl p-5 w-64 z-20 animate-float">
 
                 <div className="flex items-center gap-2 mb-3">
                   <div className="flex -space-x-2">
@@ -135,7 +135,7 @@ const HeroSection: React.FC = () => {
               </div>
 
               {/* Skyscraper Image */}
-              <div className="absolute bottom-28 left-24 w-60 h-64 rounded-2xl overflow-hidden shadow-lg z-10">
+              <div className="absolute bottom-28 left-44 w-60 h-64 rounded-2xl overflow-hidden shadow-lg z-10">
                 <img
                   src="/images/banner-2.png"
                   alt="Modern skyscraper"

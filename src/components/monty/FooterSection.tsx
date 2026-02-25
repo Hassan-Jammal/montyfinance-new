@@ -54,7 +54,7 @@ const FooterSection: React.FC = () => {
       </div> */}
 
       {/* Main Footer */}
-      <div className="max-w-6xl mx-auto px-6 lg:px-8 py-14">
+      <div className="max-w-screen-2xl mx-auto px-6 lg:px-8 py-14">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div>
@@ -164,7 +164,7 @@ const FooterSection: React.FC = () => {
 
       {/* Bottom Bar */}
       <div className="border-t border-white/10">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="max-w-screen-2xl mx-auto px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-sm">
             &copy; 2026 Monty Finance SAL. All rights reserved.
           </p>
