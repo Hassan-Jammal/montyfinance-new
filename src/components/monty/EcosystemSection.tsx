@@ -117,15 +117,16 @@ const EcosystemSection: React.FC = () => {
               </div>
 
               <p className="text-[#5a6a7e] text-base leading-relaxed mb-6">
-                MyMonty is an all-in-one digital wallet designed for everyday life. It gives individuals smart control over their money through a simple, intuitive mobile app.
+                MyMonty is an all-in-one digital finance mobile app designed for everyday life. It gives individuals smart control over their money through a simple, intuitive mobile app.
               </p>
 
               <div className="space-y-4 mb-12">
                 {[
                   'Send and receive money instantly with peer-to-peer transfers',
                   'Manage their finances in one secure place',
-                  'Access virtual and physical payment cards and credit solutions',
+                  'Receive virtual and physical prepaid and credit cards',
                   'Pay, track, and move money with ease',
+                  'Benefit from lending products',
                 ].map((feature, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <CheckIcon />
@@ -181,7 +182,10 @@ const EcosystemSection: React.FC = () => {
               </div>
 
               <p className="text-gray-400 text-base leading-relaxed mt-6">
-                MyMonty Business is a digital financial account designed to help companies manage their money efficiently through a secure web and mobile platform. It enables businesses to handle daily operations, control cash flow, and simplify financial transactions in one centralized wallet.
+                MyMonty Business is a digital financial solution designed to help businesses manage their money efficiently through a secure web portal and mobile app.
+              </p>
+              <p className="text-gray-400 text-base leading-relaxed mt-6">
+                It enables businesses to handle daily operations, control cash flow, and simplify financial transactions in one centralized platform.
               </p>
             </div>
 
@@ -218,11 +222,11 @@ const EcosystemSection: React.FC = () => {
               <h3 className="font-serif font-bold text-[#0f1c2e] text-xl mb-5">Key Features</h3>
               <div className="space-y-4">
                 {[
-                  'Manage USD and LBP wallets with transaction tracking',
-                  'Request, schedule, and collect QR code payments',
-                  'Pay suppliers and teams via transfers and bulk payments',
-                  'Deposit and withdraw through agents and ATMs',
-                  'Access business prepaid and credit cards',
+                  'Manage their USD and LBP business wallets and track transactions in one place',
+                  'Pay suppliers, partners, and employees via transfers and bulk payments',
+                  'Deposit and withdraw cash through agents and ATMs',
+                  'Request, schedule, and collect payments including QR code payments',
+                  'Access business prepaid and credit cards, with live USD/LBP exchange insights',
                 ].map((feature, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <CheckIcon />
@@ -231,16 +235,16 @@ const EcosystemSection: React.FC = () => {
                 ))}
               </div>
               <p className="text-[#5a6a7e] text-sm leading-relaxed italic mt-6">
-                Built for SMEs, startups, and growing enterprises — MyMonty Business combines flexibility, security, and compliance to support smarter financial management and sustainable growth.
+                Built for SMEs, startups, and growing enterprises, MyMonty Business combines flexibility, security, and compliance to support smarter financial management and sustainable growth.
               </p>
             </div>
           </div>
         </div>
 
         {/* MontyPay Section */}
-        <div className="bg-[#f0f3f8] rounded-3xl p-8 lg:p-24 mb-12">
+        <div className="bg-[#f0f3f8] rounded-3xl mb-12">
           <div className="relative grid lg:grid-cols-2 gap-10 items-center">
-            <div>
+            <div className="p-8 lg:p-24">
               <div className="flex items-start gap-3 mb-12">  
                 <img
                   src='images/mp.png'
@@ -291,11 +295,11 @@ const EcosystemSection: React.FC = () => {
                 </div>
               </div>
 
-              <p className="text-[#5a6a7e] text-base leading-relaxed mb-8">
-                A full-spectrum commerce and payment solutions platform designed to help businesses accept, manage, and grow their payments with confidence across Lebanon.
+              <p className="text-[#5a6a7e] text-base leading-relaxed">
+                MontyPay is a full-spectrum payment acceptance solution designed to help businesses accept, manage, and grow their payments with confidence. Supporting various payment methods including cards and wallets, MontyPay empowers merchants of all sizes to thrive in a digital economy.
               </p>
 
-              <div className="flex flex-wrap gap-3">
+              {/* <div className="flex flex-wrap gap-3">
                 {['Smart POS', 'Online Gateway', 'QR Payments'].map((tag) => (
                   <button
                     key={tag}
@@ -309,45 +313,19 @@ const EcosystemSection: React.FC = () => {
                     {tag}
                   </button>
                 ))}
-              </div>
+              </div> */}
             </div>
 
-            <div className="lg:absolute -top-36 right-0 flex justify-center">
-              <div className="relative w-64 lg:w-80">
+            <div className="lg:absolute top-1/2 -translate-y-1/2 right-0 flex justify-center">
+              <div className="relative w-64 lg:w-[500px]">
                 <img
-                  src='images/pos.png'
-                  alt="MontyPay POS terminal"
+                  src='images/dashboard.png'
+                  alt="MontyPay Dashboard"
                   className="w-full rounded-2xl"
                 />
               </div>
             </div>
           </div>
-        </div>
-
-        {/* MontyPay Services Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-20 lg:mb-28">
-          {montyPayServices.map((service, index) => (
-            <div
-              key={index}
-              className="bg-[#f8f9fb] rounded-2xl p-6 hover:shadow-lg hover:bg-white transition-all duration-300 border border-transparent hover:border-gray-100 group"
-            >
-              <div className="w-12 h-12 rounded-xl bg-[#2d4a9e] flex items-center justify-center text-white mb-5 group-hover:scale-110 transition-transform duration-300">
-                {service.icon}
-              </div>
-              <h3 className="font-serif font-bold text-[#0f1c2e] text-lg mb-3">{service.title}</h3>
-              <p className="text-[#5a6a7e] text-sm leading-relaxed">{service.description}</p>
-            </div>
-          ))}
-        </div>
-
-        {/* Complete Ecosystem Banner */}
-        <div className="bg-gradient-to-r from-[#0f1c2e] to-[#1a2d45] rounded-3xl p-8 lg:p-12 text-center">
-          <h2 className="font-serif font-bold text-white text-2xl sm:text-3xl lg:text-4xl mb-4">
-            A Complete Financial Ecosystem
-          </h2>
-          <p className="text-gray-300 text-base lg:text-lg leading-relaxed max-w-3xl mx-auto">
-            Together, MyMonty, MyMonty Business, and MontyPay form a powerful fintech ecosystem that connects people and businesses, shaping a smarter and more inclusive financial future.
-          </p>
         </div>
       </div>
     </section>

@@ -12,13 +12,13 @@ const AboutSection: React.FC = () => {
         </h2>
         <div className="space-y-6 text-[#5a6a7e] text-lg leading-relaxed">
           <p>
-            Monty Finance SAL is a Lebanese financial services company licensed by BDL and dedicated to building the future of digital finance in the region. We design and scale digital finance platforms anchored by MyMonty and MontyPay, that simplify the way people pay, move money, and manage their financial lives.
+            Monty Finance SAL is a Lebanese financial institution licensed by the Central Bank of Lebanon and dedicated to building the future of digital finance in Lebanon.
           </p>
           <p>
-            Our role goes beyond technology. We design regulated, secure, and user-centric financial solutions that respond to real-world needs, from personal money management to business payments and growth.
+            Through our platforms MyMonty and MontyPay, we offer digital financial solutions that simplify how individuals and businesses pay, receive, and move money, and manage their finances..
           </p>
           <p>
-            With a strong foundation in compliance, innovation, and market understanding, Monty Finance SAL serves as the backbone of a growing ecosystem of digital financial products for individuals, merchants, and enterprises across Lebanon and beyond.
+            With a strong foundation in compliance, innovation, and market understanding, Monty Finance SAL serves as the backbone of a growing ecosystem of digital financial products for individuals, merchants, and enterprises across Lebanon.
           </p>
         </div>
       </div>

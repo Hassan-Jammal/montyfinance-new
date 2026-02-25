@@ -87,17 +87,23 @@ const ApproachSection: React.FC = () => {
               <div className="space-y-6 mx-auto">
                 <div className="border-l-4 border-white/30 pl-6">
                   <p className="text-gray-300 text-base leading-relaxed">
-                    In a market where complexity and barriers have long limited access, we are committed to opening doors. We build platforms that simplify finance, restore confidence, and give individuals and merchants the freedom to move, pay, and grow with ease.
+                    In a market where complexity and barriers have long limited access, we are committed to opening doors. We provide solutions that simplify finance, restore confidence, and give individuals and businesses the freedom to move, pay, and grow with ease.
                   </p>
                 </div>
                 <div className="border-l-4 border-white/30 pl-6">
                   <p className="text-gray-300 text-base leading-relaxed">
-                    Our ambition is clear: to ensure that Lebanese people, residents, and the wider diaspora can access essential financial services without friction, wherever they are and whenever they need them.
+                    In a market where complexity and barriers have long limited access, we are committed to opening doors. We build platforms that simplify finance, restore confidence, and give individuals and merchants the freedom to move, pay, and grow with ease.
                   </p>
                 </div>
                 <div className="bg-white/10 rounded-2xl p-6 mt-8">
                   <p className="text-gray-200 text-base leading-relaxed italic">
-                    "Guided by the visionary leadership of Mountasser Hachem, Chairman of Monty Holding, Monty Finance SAL was founded with a clear purpose: to build meaningful financial infrastructure that drives progress. We are shaping a more connected, resilient, and accessible future for finance in Lebanon and beyond."
+                    Guided by the visionary leadership of Mountasser Hachem, Chairman of Monty Mobile Group, Monty Finance SAL was founded with a clear purpose: to build meaningful financial infrastructure that drives progress.
+                  </p>
+                  <p className="text-gray-200 text-base leading-relaxed italic">
+                    Every product we launch is designed to create lasting value and make a tangible impact on Lebanon's financial landscape.
+                  </p>
+                  <p className="text-gray-200 text-base leading-relaxed italic">
+                    Monty Finance SAL is shaping a more connected, resilient, and accessible future for finance in Lebanon.
                   </p>
                 </div>
               </div>

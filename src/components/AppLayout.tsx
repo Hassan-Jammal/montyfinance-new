@@ -5,6 +5,7 @@ import AboutSection from './monty/AboutSection';
 import ApproachSection from './monty/ApproachSection';
 import VisionMissionSection from './monty/VisionMissionSection';
 import EcosystemSection from './monty/EcosystemSection';
+import OmnichannelPaymentsSection from './monty/OmnichannelPaymentsSection';
 import FooterSection from './monty/FooterSection';
 import ContactModal from './monty/ContactModal';
 import BackToTop from './monty/BackToTop';
@@ -21,6 +22,7 @@ const AppLayout: React.FC = () => {
         <ApproachSection />
         <VisionMissionSection />
         <EcosystemSection />
+        <OmnichannelPaymentsSection />
       </main>
       <FooterSection />
       <BackToTop />
