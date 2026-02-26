@@ -55,14 +55,14 @@ const Navbar: React.FC<NavbarProps> = ({ onContactClick }) => {
             ))}
           </div>
 
-          <div className="hidden lg:flex items-center gap-4">
+          {/* <div className="hidden lg:flex items-center gap-4">
             {onContactClick ? (
               // onClick={onContactClick}
               <button onClick={() => scrollToSection('ecosystem')} className="bg-[#0f1c2e] text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-[#1a2d45] transition-colors duration-200">Get Started</button>
             ) : (
               <Link to="/contact" className="bg-[#0f1c2e] text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-[#1a2d45] transition-colors duration-200">Get Started</Link>
             )}
-          </div>
+          </div> */}
 
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="lg:hidden p-2 text-[#0f1c2e]" aria-label="Toggle menu">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -84,12 +84,12 @@ const Navbar: React.FC<NavbarProps> = ({ onContactClick }) => {
                 }} 
                 className="block w-full text-left text-[#3a4a5e] hover:text-[#0f1c2e] py-2 text-base font-medium transition-colors">{link.label}</button>
             ))}
-            <button 
+            {/* <button 
               onClick={() => {
                 scrollToSection('ecosystem');
                 setMobileMenuOpen(false);
               }}  
-              className="block w-full bg-[#0f1c2e] text-white px-6 py-3 rounded-full text-sm font-medium text-center hover:bg-[#1a2d45] transition-colors mt-2">Get Started</button>
+              className="block w-full bg-[#0f1c2e] text-white px-6 py-3 rounded-full text-sm font-medium text-center hover:bg-[#1a2d45] transition-colors mt-2">Get Started</button> */}
           </div>
         </div>
       )}

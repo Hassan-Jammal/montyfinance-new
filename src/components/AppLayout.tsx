@@ -25,7 +25,7 @@ const AppLayout: React.FC = () => {
         <OmnichannelPaymentsSection />
       </main>
       <FooterSection />
-      <BackToTop />
+      {/* <BackToTop /> */}
       <ContactModal isOpen={contactOpen} onClose={() => setContactOpen(false)} />
 
       {/* Floating Contact Button */}

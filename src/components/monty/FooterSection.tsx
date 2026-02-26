@@ -166,13 +166,7 @@ const FooterSection: React.FC = () => {
       <div className="max-w-screen-2xl mx-auto px-6 lg:px-8 py-6 space-y-4 border-t border-white/10">
         <h4 className="font-semibold text-white text-base">Disclaimer</h4>
         <p className="text-gray-500 text-sm">
-          montypay.com provides information about payment acceptance products and services provided by Monty Finance SAL in Lebanon. It also provides information about other services offered in Lebanon and in other jurisdictions by affiliate companies, for which the relevant affiliates remain responsible.
-        </p>
-        <p className="text-gray-500 text-sm">
           Monty Finance SAL is registered in Lebanon (Beirut Register of Commerce No. 73215), Gefinor Center, Clemenceau St., Hamra, Beirut, Lebanon and is authorized by the Central Bank of Lebanon (“BDL”) to operate as a financial institution and payment service provider. Monty Finance SAL is listed on the BDL List of Financial Institutions under no. 23.
-        </p>
-        <p className="text-gray-500 text-sm">
-          Disclaimermontypay.com provides information about payment acceptance products and services provided by Monty Finance SAL in Lebanon. It also provides information about other services offered in Lebanon and in other jurisdictions by affiliate companies, for which the relevant affiliates remain responsible.
         </p>
       </div>
 
