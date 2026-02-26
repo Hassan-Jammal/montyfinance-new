@@ -54,9 +54,6 @@ const EcosystemSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <p className="text-[#0f1c2e] font-semibold text-sm tracking-widest uppercase mb-4">
-            MontyPay
-          </p>
           <h2 className="font-serif font-bold text-[#0f1c2e] text-3xl sm:text-4xl lg:text-5xl mb-6">
             Omnichannel Payments
           </h2>

@@ -71,7 +71,7 @@ const EcosystemSection: React.FC = () => {
   const [activePayTag, setActivePayTag] = useState('Smart POS');
 
   return (
-    <section id="ecosystem" className="pb-20 lg:pb-28 bg-white">
+    <section id="ecosystem" className="pb-12 lg:pb-20 bg-white">
       <div className="max-w-screen-2xl mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -138,6 +138,13 @@ const EcosystemSection: React.FC = () => {
               <p className="text-[#5a6a7e] text-base leading-relaxed italic">
                 Built for modern lifestyles, MyMonty transforms how people interact with their finances. It replaces complexity with clarity and friction with freedom, putting powerful financial tools directly in the hands of users.
               </p>
+
+              <div className="mt-10">
+                <a 
+                  href="https://mymonty.com"
+                  target="_blank"
+                  className="w-full bg-[#0f1c2e] text-white px-6 py-3 rounded-full text-sm font-medium text-center hover:bg-[#1a2d45] transition-colors">Get Started</a>
+                </div>
             </div>
 
             <div className="flex justify-center">
@@ -186,6 +193,13 @@ const EcosystemSection: React.FC = () => {
             <p className="text-gray-400 text-base leading-relaxed mt-6">
               It enables businesses to handle daily operations, control cash flow, and simplify financial transactions in one centralized platform.
             </p>
+
+            <div className="mt-10">
+              <a 
+                href="https://mymonty.com.lb/business"
+                target="_blank"
+                className="w-full bg-white text-[#0f1c2e] px-6 py-3 rounded-full text-sm font-medium text-center hover:bg-[#dcdfe3] transition-colors">Get Started</a>
+            </div>
           </div>
 
           {/* Right - Image + Features */}
@@ -229,7 +243,7 @@ const EcosystemSection: React.FC = () => {
         </div>
 
         {/* MontyPay Section */}
-        <div className="bg-[#f0f3f8] rounded-3xl mb-12">
+        <div className="bg-[#f0f3f8] rounded-3xl py-8 lg:py-14">
           <div className="relative grid lg:grid-cols-2 gap-10 items-center">
             <div className="p-8 lg:p-24">
               <div className="flex items-start gap-3 mb-12">  
@@ -286,6 +300,13 @@ const EcosystemSection: React.FC = () => {
                 MontyPay is a full-spectrum payment acceptance solution designed to help businesses accept, manage, and grow their payments with confidence. Supporting various payment methods including cards and wallets, MontyPay empowers merchants of all sizes to thrive in a digital economy.
               </p>
 
+              <div className="mt-10">
+                <a 
+                  href="https://montypay.com"
+                  target="_blank"
+                  className="w-full bg-[#234090] text-white px-6 py-3 rounded-full text-sm font-medium text-center hover:bg-[#1a2d45] transition-colors">Get Started</a>
+                </div>
+
               {/* <div className="flex flex-wrap gap-3">
                 {['Smart POS', 'Online Gateway', 'QR Payments'].map((tag) => (
                   <button
@@ -304,7 +325,7 @@ const EcosystemSection: React.FC = () => {
             </div>
 
             <div className="lg:absolute top-1/2 -translate-y-1/2 right-0 flex justify-center">
-              <div className="relative w-64 lg:w-[500px]">
+              <div className="relative w-64 lg:w-[600px]">
                 <img
                   src='images/dashboard.png'
                   alt="MontyPay Dashboard"
