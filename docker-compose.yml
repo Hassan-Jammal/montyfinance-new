@@ -1,0 +1,18 @@
+services:
+  montyfinance-frontend:
+    container_name: montyfinance-frontend
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    # ports:
+    #   - 8333:80
+    networks:
+      - npm
+      - montyfinance-network
+networks:
+  montyfinance-network:
+    driver: bridge
+  npm:
+    external: true
+    name: npm
