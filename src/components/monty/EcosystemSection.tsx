@@ -71,7 +71,7 @@ const EcosystemSection: React.FC = () => {
   const [activePayTag, setActivePayTag] = useState('Smart POS');
 
   return (
-    <section id="ecosystem" className="pb-12 lg:pb-20 bg-white">
+    <section id="ecosystem" className="py-20 lg:py-28 bg-white">
       <div className="max-w-screen-2xl mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">

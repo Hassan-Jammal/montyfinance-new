@@ -175,14 +175,18 @@ const FooterSection: React.FC = () => {
           &copy; 2026 Monty Finance SAL. All rights reserved.
         </p>
         <div className="flex items-center gap-6">
-          {['Privacy Policy', 'Terms of Service', 'Compliance'].map((link) => (
-            <button
-              key={link}
-              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          {[
+            { label: 'Cookies Policy', href: '/cookies-policy' },
+            { label: 'Terms And Conditions', href: '/terms-and-conditions' },
+            // { label: 'Code Of Conduct', href: '/code-of-conduct' },
+            { label: 'Data Protection Policy', href: '/data-protection-policy' },
+          ].map((link) => (
+            <Link
+              to={link.href}
               className="text-gray-500 hover:text-[#c9a96e] text-sm transition-colors duration-200"
             >
-              {link}
-            </button>
+              {link.label}
+            </Link>
           ))}
         </div>
       </div>

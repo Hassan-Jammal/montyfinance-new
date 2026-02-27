@@ -10,6 +10,10 @@ import About from "./pages/About";
 import Ecosystem from "./pages/Ecosystem";
 import Careers from "./pages/Careers";
 import Contact from "./pages/Contact";
+import CookiesPolicy from "./pages/CookiesPolicy";
+import CodeOfConduct from "./pages/CodeOfConduct";
+import DataProtection from "./pages/DataProtection";
+import TermsAndConditions from "./pages/TermsAndConditions";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +31,10 @@ const App = () => (
             <Route path="/ecosystem" element={<Ecosystem />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/cookies-policy" element={<CookiesPolicy />} />
+            <Route path="/code-of-conduct" element={<CodeOfConduct />} />
+            <Route path="/data-protection-policy" element={<DataProtection />} />
+            <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

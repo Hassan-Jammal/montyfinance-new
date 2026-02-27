@@ -2,7 +2,7 @@ import React from 'react';
 
 const VisionMissionSection: React.FC = () => {
   return (
-    <section id="vision" className="py-20 lg:py-28 bg-white">
+    <section id="vision" className="pt-20 lg:pt-28 bg-white">
       <div className="max-w-screen-2xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-14">
           <p className="text-[#0f1c2e] font-semibold text-sm tracking-widest uppercase mb-4">
