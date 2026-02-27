@@ -148,7 +148,7 @@ const EcosystemSection: React.FC = () => {
             </div>
 
             <div className="flex justify-center">
-              <div className="relative w-3/4 ml-auto">
+              <div className="relative w-3/4 lg:ml-auto">
                 <img
                   src='images/mobile-app.png'
                   alt="MyMonty digital wallet app"
@@ -162,8 +162,8 @@ const EcosystemSection: React.FC = () => {
         {/* MyMonty Business Section */}
         <div className="grid lg:grid-cols-3 gap-8 mb-24">
           {/* Left - Dark Card */}
-          <div className="bg-[#0f1c2e] rounded-3xl p-8 lg:p-10 flex flex-col justify-start min-h-[650px]">
-            <div className="flex items-center gap-2 mb-2 mt-8">
+          <div className="bg-[#0f1c2e] rounded-3xl p-8 lg:p-10 flex flex-col justify-start lg:min-h-[650px]">
+            <div className="flex items-center gap-2 mb-2">
               <svg width="315" height="36" viewBox="0 0 315 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M182.361 0.21167H192.327C196.827 0.21167 199.87 2.82652 199.87 6.75167V6.786C199.87 9.4924 197.832 12.1244 195.117 12.5078V12.5822C198.906 13.017 201.202 15.5632 201.202 19.0306V19.0649C201.202 23.6767 197.884 26.4174 192.292 26.4174H182.361V0.21167ZM185.644 3.09545V11.5065H190.564C194.445 11.5065 196.558 9.96159 196.558 7.12931V7.09498C196.558 4.51445 194.755 3.10117 191.58 3.10117H185.639L185.644 3.09545ZM185.644 14.3216V23.5279H191.804C195.742 23.5279 197.832 21.9487 197.832 18.9334V18.899C197.832 15.8665 195.685 14.3216 191.494 14.3216H185.644Z" fill="#BCC2C9"/>
                 <path d="M203.877 19.786V7.52991H207.046V19.2252C207.046 22.2921 208.487 23.9858 211.397 23.9858C214.308 23.9858 216.334 21.863 216.334 18.6473V7.53563H219.503V26.4232H216.334V23.734H216.26C215.238 25.4963 213.309 26.7837 210.427 26.7837C206.271 26.7837 203.865 24.0945 203.865 19.7917L203.877 19.786Z" fill="#BCC2C9"/>
@@ -203,7 +203,7 @@ const EcosystemSection: React.FC = () => {
           </div>
 
           {/* Right - Image + Features */}
-          <div className="col-span-2 space-y-6">
+          <div className="lg:col-span-2 space-y-6">
             <div className="relative rounded-3xl overflow-hidden h-72">
               <img
                 src='images/person-3.png'
